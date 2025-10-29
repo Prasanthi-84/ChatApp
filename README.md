@@ -42,3 +42,12 @@ npm install
 # 4️⃣ Run the server
 npm start
 
+| Feature                   | **WebSockets**             | **Socket.io**                   |
+| ------------------------- | -------------------------- | -----------------------------   |
+| **Protocol**              | Native browser API (ws://) | Built on top of WebSockets      |
+| **Fallbacks**             |  None                      | ✅ HTTP long polling supported  |
+| **Reconnection**          | ❌ Manual                  | ✅ Automatic reconnection       |
+| **Custom Events**         | ❌ Only “message”          | ✅ Supports custom event names  |
+| **Ease of Use**           | Low-level                  | High-level, beginner-friendly    |
+| **Cross-Browser Support** | Partial                    | Excellent                        |
+

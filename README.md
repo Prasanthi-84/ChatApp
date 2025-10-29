@@ -28,4 +28,31 @@ Users can join specific chat rooms, send instant messages, and see who’s onlin
 ---
 
 ## 📂 Project Structure
+server/
+│
+├── public/
+│ ├── index.html # Chat UI
+│ ├── style.css # Beautiful modern styles
+│ └── app.js # Socket.io client logic
+│
+├── index.js # Express + Socket.io backend
+├── package.json # Dependencies and scripts
+└── package-lock.json
+
+---
+
+## 🛠️ Installation and Setup
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/yourusername/socket-chat-app.git
+
+# 2️⃣ Navigate to the server directory
+cd socket-chat-app/server
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Run the server
+npm start
 

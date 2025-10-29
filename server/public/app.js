@@ -2,7 +2,7 @@
 
 //const socket=new WebSocket('ws://localhost:3000')
 
-const socket=io('http://localhost:3500',{
+const socket=io('https://chatapp-cgkr.onrender.com',{
      transports: ["websocket", "polling"],
 })
 
